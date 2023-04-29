@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class IdGenerator {
-    public static int IdGenerator()
+    public static int idGenerator()
     {
         try(FileReader reader = new FileReader("id.txt"))
         {

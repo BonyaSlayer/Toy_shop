@@ -11,6 +11,7 @@ public class Main {
         toys.add(toy1);
         toys.add(toy2);
         wintoys.add(Game.playGame(toys));
+        System.out.println(wintoys);   
 
 
     }

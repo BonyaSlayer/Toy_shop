@@ -1,4 +1,4 @@
-import javax.swing.*;
+//import javax.swing.*;
 import java.security.InvalidParameterException;
 
 public class Toy {
@@ -8,7 +8,7 @@ public class Toy {
     private double frequency;
 
     public Toy(String name, int count, double frequency) {
-        this.id = IdGenerator.IdGenerator();
+        this.id = IdGenerator.idGenerator();
         this.name = name;
         this.count = count;
         this.frequency = frequency;

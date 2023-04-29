@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class GetToy {
-    public static void GetToy(ArrayList<Toy> toys){
+    public static void getToy(ArrayList<Toy> toys){
         try(FileWriter writer = new FileWriter("toy.txt", false))
         {
             var toy = toys.get(0);
